@@ -87,7 +87,8 @@ SRC=	ft_atoi.c \
 		ft_toupper.c \
 
 
-$(NAME): $(OBJ)
+$(NAME):
+	$(CC) $(CFLAGS) $(SRC)
 	ar rc $(NAME) $(OBJ)
 	ranlib $(NAME)
 
