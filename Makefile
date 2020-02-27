@@ -15,10 +15,8 @@ CFLAGS=-Wall -Wextra -Werror -O3 -I. -c
 NAME=libft.a
 OBJ=$(SRC:.c=.o)
 SRC=	ft_atoi.c \
-		ft_atoi_base.c \
 		ft_bzero.c \
 		ft_imax.c \
-		ft_imin.c \
 		ft_isalnum.c \
 		ft_isalpha.c \
 		ft_isascii.c \
@@ -87,7 +85,6 @@ SRC=	ft_atoi.c \
 		ft_strupcase.c \
 		ft_tolower.c \
 		ft_toupper.c \
-		ft_wordcount.c \
 
 
 $(NAME): $(OBJ)

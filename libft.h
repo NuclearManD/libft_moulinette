@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbrophy <dbrophy@student.42.us.org>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/26 20:09:08 by dbrophy           #+#    #+#             */
-/*   Updated: 2020/02/26 20:09:08 by dbrophy          ###   ########.fr       */
+/*   Created: 2020/02/26 20:16:33 by dbrophy           #+#    #+#             */
+/*   Updated: 2020/02/26 20:16:33 by dbrophy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,8 @@ typedef struct	s_list
 }				t_list;
 
 int				ft_atoi(char *str);
-int				ft_atoi_base(char *str, char *base);
 void			ft_bzero(void *s, size_t n);
 int				ft_imax(int a, int b);
-int				ft_imin(int a, int b);
 int				ft_isalnum(int c);
 int				ft_isalpha(int c);
 int				ft_isascii(int c);
@@ -95,6 +93,5 @@ char			*ft_strtrim(const char *s);
 char			*ft_strupcase(char *str);
 int				ft_tolower(int c);
 int				ft_toupper(int c);
-int				ft_wordcount(char *s);
 
 #endif
