@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: dbrophy <dbrophy@student.42.us.org>        +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/26 10:38:40 by dbrophy           #+#    #+#              #
+#    Updated: 2020/02/26 10:41:22 by dbrophy          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 CC=gcc
 CFLAGS=-Wall -Wextra -Werror -O3 -I. -c
 NAME=libft.a
@@ -40,11 +52,6 @@ SRC=	ft_atoi.c \
 		ft_putstr.c \
 		ft_putstr_fd.c \
 		ft_sqrt.c \
-		ft_str_is_alpha.c \
-		ft_str_is_lowercase.c \
-		ft_str_is_numeric.c \
-		ft_str_is_printable.c \
-		ft_str_is_uppercase.c \
 		ft_strcapitalize.c \
 		ft_strcat.c \
 		ft_strchr.c \
@@ -82,7 +89,6 @@ SRC=	ft_atoi.c \
 		ft_tolower.c \
 		ft_toupper.c \
 		ft_wordcount.c \
-		ft_wordsplit.c \
 
 
 $(NAME): $(OBJ)
