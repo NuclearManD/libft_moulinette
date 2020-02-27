@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbrophy <dbrophy@student.42.us.org>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/26 10:38:23 by dbrophy           #+#    #+#             */
-/*   Updated: 2020/02/26 10:38:23 by dbrophy          ###   ########.fr       */
+/*   Created: 2020/02/26 20:09:08 by dbrophy           #+#    #+#             */
+/*   Updated: 2020/02/26 20:09:08 by dbrophy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,12 +59,6 @@ void			ft_putnbr_base(int nb, char *base);
 void			ft_putnbr_fd(int nb, int fd);
 void			ft_putstr(char *str);
 void			ft_putstr_fd(const char *str, int fd);
-double			ft_sqrt(double val);
-int				ft_str_is_alpha(char *str);
-int				ft_str_is_lowercase(char *str);
-int				ft_str_is_numeric(char *str);
-int				ft_str_is_printable(char *str);
-int				ft_str_is_uppercase(char *str);
 char			*ft_strcapitalize(char *str);
 char			*ft_strcat(char *dest, char *src);
 char			*ft_strchr(char *s, int c);
@@ -102,6 +96,5 @@ char			*ft_strupcase(char *str);
 int				ft_tolower(int c);
 int				ft_toupper(int c);
 int				ft_wordcount(char *s);
-int				ft_wordsplit(char **arr, char *s, int maxcount);
 
 #endif
